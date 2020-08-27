@@ -1,6 +1,17 @@
 body {
-  font-family: sans-serif;
   background-color: #f9fbfd;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+textarea,
+button {
+  font-family: "Roboto", sans-serif;
 }
 
 .magic-container {
@@ -10,15 +21,18 @@ body {
 .magic-title {
   text-align: center;
   padding: 1.5rem;
-  color: peru;
+  color: #82589f;
 }
-
+.magic-title h1 {
+  font-size: 48px;
+  font-family: "MedievalSharp", cursive;
+}
 .magic-box {
   font-size: 1.2rem;
   padding: 2rem;
   border-radius: 6px;
   border-width: 1px;
-  color: palegreen;
+  color: #fd7272;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px 0px;
   margin: 0 auto;
   max-width: 900px;
@@ -50,7 +64,9 @@ body {
   background-color: whitesmoke;
   color: orange;
 }
-
+#magic-btn:focus {
+  outline: none;
+}
 .magic-phrase {
   box-sizing: border-box;
   width: 100%;
